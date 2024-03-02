@@ -1,0 +1,9 @@
+.box1{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    display: flex;
+    border: 1px dotted red;
+}
