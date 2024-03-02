@@ -1,9 +1,35 @@
+body{
+    background-color: lightgrey;
+    margin: 0;
+    flex-direction: column;
+}
 .box1{
     border: 1px solid red;
     display: flex;
     justify-content: center;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 50%
+    padding 20px
 }
 .box2{
     display: flex;
     border: 1px dotted red;
+    margin: auto;
+    width: 50%;
+}
+.box3{
+    border: 1px solid red;
+    font-size: 10px;
+
+}
+.date{
+    display: flex;
+    float: right;
+    background-color: yellow;
+    border: 1px dotted blue;
+    margin-left: auto;
+
+
 }
